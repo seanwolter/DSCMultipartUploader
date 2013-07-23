@@ -20,7 +20,7 @@
 
 NSString * const ContentStringTypeJPEG = @"image/jpeg";
 NSString * const ContentStringTypeVideo = @"video/mp4";
-inline NSString *stringFromContentType(DSCMultipartContentType contentType)
+NSString *stringFromContentType(DSCMultipartContentType contentType)
 {
     switch (contentType) {
         case DSCMultipartContentJPEG:
